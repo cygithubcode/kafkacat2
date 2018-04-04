@@ -1,0 +1,3 @@
+/home/user1/kafkacat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/user1/kafkacat/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/user1/kafkacat/cmake-build-debug/CMakeFiles/kafkacat.dir

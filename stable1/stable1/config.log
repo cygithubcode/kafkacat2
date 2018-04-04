@@ -1,0 +1,27 @@
+# configure exec: ./configure 
+# On Fri Feb 23 10:55:00 EST 2018
+DBG: ccenv: WITH_CC:  --version failed: mklove/modules/configure.base: line 1184: --version: command not found
+DBG: Check ccenv (WITH_CC, action cont (originally cont)) failed: command ' --version' failed:
+mklove/modules/configure.base: line 1184: --version: command not found
+DBG: pkg-config check rdkafka (): pkg-config --short-errors --cflags rdkafka
+DBG: Compile check librdkafkaver (): gcc -I/usr/local/include -g -O2 -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpsWBKoM.c -o _mkltmpsWBKoM.c.o   
+DBG: Compile check librdkafka_ge_090 (ENABLE_KAFKACONSUMER): gcc -I/usr/local/include -g -O2 -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpBrk18i.c -o _mkltmpBrk18i.c.o   
+DBG: pkg-config check yajl (): pkg-config --short-errors --cflags yajl
+DBG: 'pkg-config --short-errors --cflags yajl' failed: No package 'yajl' found
+DBG: Check yajl_PKGCONFIG (, action cont (originally cont)) failed: 'pkg-config --short-errors --cflags yajl' failed:
+No package 'yajl' found
+DBG: Compile check yajl (HAVE_YAJL): gcc -I/usr/local/include -g -O2 -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpY4gT3w.c -o _mkltmpY4gT3w.c.o   -lyajl
+DBG: compile check for yajl (HAVE_YAJL) failed: gcc -I/usr/local/include -g -O2 -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpY4gT3w.c -o _mkltmpY4gT3w.c.o   -lyajl: _mkltmpY4gT3w.c:1:32: fatal error: yajl/yajl_version.h: No such file or directory
+compilation terminated.
+DBG: Check yajl (HAVE_YAJL, action disable (originally disable)) failed: compile check failed:
+CC: CC
+flags: -lyajl
+gcc -I/usr/local/include -g -O2 -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -Wall -Werror _mkltmpY4gT3w.c -o _mkltmpY4gT3w.c.o   -lyajl:
+_mkltmpY4gT3w.c:1:32: fatal error: yajl/yajl_version.h: No such file or directory
+compilation terminated.
+source: #include  <yajl/yajl_version.h>
+#if YAJL_MAJOR >= 2
+#else
+#error "Requires libyajl2"
+#endif
+

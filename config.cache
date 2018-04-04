@@ -1,0 +1,15 @@
+# mklove configure cache file generated at Fri Feb 23 10:55:01 EST 2018
+MKL_STATUS_distro=ok
+MKL_STATUS_ccenv=failed
+MKL_STATUS_gcc=ok
+MKL_STATUS_ld=ok
+MKL_STATUS_nm=ok
+MKL_STATUS_objdump=ok
+MKL_STATUS_strip=ok
+MKL_STATUS_pkgconfig=ok
+MKL_STATUS_install=ok
+MKL_STATUS_rdkafka=ok
+MKL_STATUS_librdkafkaver=ok
+MKL_STATUS_librdkafka_ge_090=ok
+MKL_STATUS_yajl_PKGCONFIG=failed
+MKL_STATUS_yajl=failed

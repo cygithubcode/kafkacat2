@@ -1,0 +1,4 @@
+./kafkacat  -b 192.168.81.134:9092 -G -t kxfeed_trade -o 200 -f 'Topic %t [%p] at offset %o: key %k: %s\n'
+
+
+

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g   CMakeFiles/mykafkacat.dir/mklove/modules/configure.cc.o CMakeFiles/mykafkacat.dir/format.c.o CMakeFiles/mykafkacat.dir/json.c.o CMakeFiles/mykafkacat.dir/kafkacat.c.o CMakeFiles/mykafkacat.dir/tools.c.o  -o mykafkacat 

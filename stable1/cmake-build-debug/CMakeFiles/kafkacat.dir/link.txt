@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/kafkacat.dir/mklove/modules/configure.cc.o CMakeFiles/kafkacat.dir/format.c.o CMakeFiles/kafkacat.dir/json.c.o CMakeFiles/kafkacat.dir/kafkacat.c.o CMakeFiles/kafkacat.dir/tools.c.o  -o kafkacat 

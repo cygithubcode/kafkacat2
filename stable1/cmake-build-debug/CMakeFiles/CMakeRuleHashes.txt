@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+3521848f47284f27f61f453621d1f717 CMakeFiles/kafkacat

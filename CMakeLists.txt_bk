@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.9)
+project(mykafkacat)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(mykafkacat
+        mklove/modules/configure.cc
+        win32/getdelim.c
+        win32/win32_config.h
+        win32/wingetopt.c
+        win32/wingetopt.h
+        config.h
+        format.c
+        json.c
+        kafkacat.c
+        kafkacat.h
+        rdport.h
+        tools.c)
